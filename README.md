@@ -25,6 +25,11 @@ Future features: MQTT integration for controlling devices.
 
 3. Edit `telegram_bot.py` and set your `BOT_TOKEN` and `DEVELOPER_PASSWORD`.
 
+To make the bot work, you need to add a Telegram bot token and the developer password in the code. Replace the placeholders in `telegram_bot.py`:
+
+- `BOT_TOKEN = '_INTRODUCE_YOUR_BOT_TOKEN_HERE'` with your actual bot token.
+- `DEVELOPER_PASSWORD = "YOUR_DEVELOPER_PASSWORD"` with your chosen password.
+
 ## Usage
 
 Run the bot:
@@ -33,6 +38,8 @@ python telegram_bot.py
 ```
 
 Send commands to the bot in Telegram.
+
+To change the language to Spanish, modify the import in `telegram_bot.py` from `import messages_en as custom_messages` to `import messages_es as custom_messages`.
 
 ## Commands
 
